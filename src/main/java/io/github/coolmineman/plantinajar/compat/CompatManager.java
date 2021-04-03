@@ -56,7 +56,7 @@ public class CompatManager {
                 .addTree("byg:willow_sapling", "byg:willow_log", "byg:willow_leaves")
                 .addTree("byg:witch_hazel_sapling", "byg:witch_hazel_log", "byg:witch_hazel_leaves")
                 .addTree("byg:yellow_birch_sapling", "minecraft:birch_log", "byg:yellow_birch_leaves")
-                .addTree("byg:yellow_spruce_sapling", "minecraft:spruce_log", "byg:yellow_spruce_leaves")
+                .addTree("byg:yellow_spruce_sapling", "minecraft:spruce_log", "byg:yellow_spruce_leaves"
                 .addTree("byg:zelkova_sapling", "byg:zelkova_log", "byg:zelkova_leaves")
             );
         }
@@ -94,6 +94,8 @@ public class CompatManager {
                 .addTree("betterend:helix_tree_sapling", "betterend:helix_tree_log", "betterend:helix_tree_leaves")
                 .addTree("betterend:umbrella_tree_sapling", "betterend:umbrella_tree_log", "betterend:umbrella_tree_membrane")
                 .addTree("betterend:hydralux_sapling", "betterend:hydralux_petal_block", "betterend:hydralux_petal")
+                .addTree("betterend:end_lotus_seed", "betterend:end_lotus_stem", "minecraft:air")
+                .addTree("betterend:small_jellyshroom", "betterend:jellyshroom_log", "betterend:jellyshroom_cap_purple")
             );
         }
         if (FabricLoader.getInstance().isModLoaded("betternether")) {
@@ -105,6 +107,7 @@ public class CompatManager {
                 .addTree("betternether:stalagnate_seed", "betternether:stalagnate_stem", "minecraft:air")
                 .addTree("betternether:wart_seed", "betternether:wart_log", "minecraft_air")
                 .addTree("betternether:nether_sakura_sapling", "betternether:nether_sakura_log", "betternether:nether_sakura_leaves")
+                .addTree("betternether:soul_lily_sapling", "betternether:mushroom_stem", "minecraft:air")
             );
         }
         if (FabricLoader.getInstance().isModLoaded("sakurarosea")) {
